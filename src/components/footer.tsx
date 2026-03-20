@@ -50,9 +50,9 @@ export function Footer() {
             <Image
               src="/logo.svg"
               alt="Silver Pines Golf Club"
-              width={120}
-              height={50}
-              className="h-16 w-auto brightness-0 invert mb-6"
+              width={280}
+              height={120}
+              className="h-32 w-auto brightness-0 invert mb-6"
             />
             <p className="text-sm font-light leading-relaxed text-white/50 max-w-xs">
               A fictional private golf destination set in the heart of the

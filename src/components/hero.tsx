@@ -13,7 +13,7 @@ export function Hero() {
         className="absolute inset-0 w-full h-full object-cover"
         poster="/hero-poster.jpg"
       >
-        <source src="/branding/hero-video.mp4" type="video/mp4" />
+        <source src="/hero-video.mp4" type="video/mp4" />
       </video>
 
       {/* Dark gradient overlay */}

@@ -39,6 +39,9 @@ yarn-error.log*
 # branding assets
 /branding
 
+# large media
+public/hero-video.mp4
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

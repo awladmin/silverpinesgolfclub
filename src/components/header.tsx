@@ -42,15 +42,15 @@ export function Header() {
       )}
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="flex h-20 items-center justify-between">
+        <div className="flex h-36 items-center justify-between">
           {/* Logo */}
           <Link href="#" className="relative z-10 flex-shrink-0">
             <Image
               src="/logo.svg"
               alt="Silver Pines Golf Club"
-              width={140}
-              height={60}
-              className="h-12 w-auto brightness-0 invert"
+              width={280}
+              height={120}
+              className="h-32 w-auto brightness-0 invert"
               priority
             />
           </Link>
