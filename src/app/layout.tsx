@@ -13,9 +13,14 @@ export const metadata: Metadata = {
   description:
     "Silver Pines Golf Club is a private parkland golf destination set in the Surrey countryside, shaped by rolling fairways, mature pines and a quietly exceptional club experience.",
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon.ico", sizes: "48x48" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+    ],
     apple: "/apple-touch-icon.png",
   },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
